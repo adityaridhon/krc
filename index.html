@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>KRC | LAPANBELAS</title>
+ <link rel="icon" type="image/x-icon" href="img/logo.png">
+ <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.20/dist/full.min.css" rel="stylesheet" type="text/css" />
+ <link rel="stylesheet" href="style.css">
+ <script src="https://cdn.tailwindcss.com"></script>
+ <script src="https://unpkg.com/feather-icons"></script>
+ <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body>
+
+ <nav class="fixed top-0 z-50 w-full flex justify-between items-center w-[92%] mx-auto">
+    <div class="navbar bg-opacity-50" id="navbar">
+      <div class="flex-1">
+        <img src="img/logo.png" width="75px" alt="krc" class="px-2" id="krc">
+        <h1 class="text-xl font-bold">KRC LAPANBELAS</h1>
+      </div>
+      <div class="nav-links duration-500 md:static absolute md:min-h-fit min-h-[35vh] left-0 top-[-999%] md:w-auto  w-full flex items-center px-5">
+        <ul class="menu flex md:flex-row flex-col md:items-center md:gap-[2vw] gap-8">
+          <li><a class="text-xl" id="nav-navbar" href="#home">Home</a></li>
+          <li><a class="text-xl" id="nav-navbar" href="#about">About Us</a></li>
+          <li><a class="text-xl" id="nav-navbar" href="#member">Member</a></li>
+          <li><a class="text-xl" id="nav-navbar" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="flex items-center gap-6">
+        <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+    </div>
+    </div>
+ </nav>
+
+  <section id="home" >
+    <div class="flex items-center justify-center h-screen">
+      <h1 class="font-bold text-4xl text-center" id="headline">Selamat Datang di Website Kami</h1>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="pt-28 mb-10">
+      <h1 class="text-center font-bold text-3xl">About Us</h1>
+    </div>
+    <div class="card bg-cyan-950 shadow-xl mx-8">
+      <div class="card-body">
+        <p class="text-justify text-lg">Cita-cita tidak tercapai dengan sendiri, tetapi melalui interaksi yang menghasilkan kolaborasi. Selasa, 5 September 2023 adalah hari dimana pertama kali kami bertemu. Berawal dari makan bersama di Waroeng Rahmad lantai dua, kami yang berasal dari berbagai tujuan hidup berkumpul dalam sebuah pertemanan yang harmonis kami menyebutnya KRC Lapanbelas. KRC adalah ruang atau wadah di mana kami saling berbagi cerita kehidupan dan bertukar ide, sambil tertawa dan bercanda tanpa batas. Kami tidak bisa mendefinisikan persahabatan kami dengan kata-kata, namun bersama KRC menjadi petualangan yang tak terlupakan. <br> <br>Kami berharap apa yang kami bagikan di website ini dapat memberi motivasi kepada siapa pun yang membacanya, menginspirasi dalam perjalanan mereka melewati hari ini, besok, dan seterusnya. KRC Lapanbelas adalah bukti bahwa persahabatan sejati tidak hanya hadir di kisah dongeng, melainkan juga tumbuh di kehidupan nyata melalui keberagaman, dukungan, dan kehangatan yang tak tergantikan. Mari bersama-sama mewujudkan impian dan membangun cerita kehidupan yang penuh makna.<br><br> Salam dari kami, <br> KRC LAPANBELAS</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="member" class="pt-28 mb-10">
+    <!-- title -->
+    <div>
+      <h1 class="text-center font-bold text-3xl">Our Members</h1>
+    </div>
+    <!-- title end -->
+    <!-- card starts -->
+    <div class="flex flex-wrap mx-6">
+      <!-- card 1-->
+      <div class="card w-96 bg-cyan-950 shadow-xl mx-auto my-10">
+        <figure class="px-10 pt-10 ">
+          <img src="img/member/abim.JPG" width="150px" alt="Shoes" class="rounded-full" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Abiem Akmal Fadhil</h2>
+          <p>UI/UX Designer<p>
+          <div class="card-actions">
+            <a href="https://www.instagram.com/abiemmmmm/" target="_blank"><i data-feather="instagram"></i></a>
+            <a href="mailto:abiemakmal31@gmail.com" target="_blank"><i data-feather="mail"></i></a>
+            <a href="https://wa.me/6282254355447" target="_blank"><i data-feather="phone"></i></a>
+          </div>
+        </div>
+      </div>
+
+    <!-- card 2 -->
+      <div class="card w-96 bg-cyan-950 shadow-xl mx-auto my-10">
+        <figure class="px-10 pt-10">
+          <img src="img/member/adit.jpg" width="150px" alt="Shoes" class="rounded-full" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Aditya Ridho Nugroho</h2>
+          <p>Front-End Developer</p>
+          <div class="card-actions">
+            <a href="https://www.instagram.com/adtyrdho/" target="_blank"><i data-feather="instagram"></i></a>
+            <a href="mailto:adityariddho@gmail.com" target="_blank"><i data-feather="mail"></i></a>
+            <a href="https://wa.me/628981730371" target="_blank"><i data-feather="phone"></i></a>
+          </div>
+        </div>
+      </div>
+
+    <!-- card 3-->
+      <div class="card w-96 bg-cyan-950 shadow-xl mx-auto my-10">
+        <figure class="px-10 pt-10">
+          <img src="img/member/alip.jpg" width="150px" alt="Shoes" class="rounded-full" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Alief Rachmattul Islam</h2>
+          <p>IT Support Manager</p>
+          <div class="card-actions">
+            <a href="https://www.instagram.com/alyxph_/" target="_blank"><i data-feather="instagram"></i></a>
+            <a href="mailto:aliefrachmattul@gmail.com" target="_blank"><i data-feather="mail"></i></a>
+            <a href="https://wa.me/6287881671064" target="_blank"><i data-feather="phone"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- card 4-->
+      <div class="card w-96 bg-cyan-950 shadow-xl mx-auto my-10">
+        <figure class="px-10 pt-10">
+          <img src="img/member/dika.JPG" width="150px" alt="Shoes" class="rounded-full" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Andhika Ramadhan</h2>
+          <p>IT Support</p>
+          <div class="card-actions">
+            <a href="https://www.instagram.com/andhikaaa.____/" target="_blank"><i data-feather="instagram"></i></a>
+            <a href="mailto:andhikaramadhan0111@gmail.com" target="_blank"><i data-feather="mail"></i></a>
+            <a href="https://wa.me/6285849155956" target="_blank"><i data-feather="phone"></i></a>
+          </div>
+        </div>
+      </div>
+
+    <!-- card 5-->
+      <div class="card w-96 bg-cyan-950 shadow-xl mx-auto my-10">
+        <figure class="px-10 pt-10">
+          <img src="img/member/arya.jpg" width="150px" alt="Shoes" class="rounded-full" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Arya Zaky Pradipta</h2>
+          <p>Back-End Developer</p>
+          <div class="card-actions">
+            <a href="https://www.instagram.com/aryazaky__/" target="_blank"><i data-feather="instagram"></i></a>
+            <a href="mailto:aryazakypradipta@gmail.com"><i data-feather="mail"></i></a>
+            <a href="https://wa.me/6282157962196" target="_blank"><i data-feather="phone"></i></a>
+          </div>
+        </div>
+      </div>
+
+    <!-- card 6-->
+      <div class="card w-96 bg-cyan-950 shadow-xl mx-auto my-10">
+        <figure class="px-10 pt-10">
+          <img src="img/member/syachdan.JPG" width="150px" alt="Shoes" class="rounded-full" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Mochammad Syachdan Pratama</h2>
+          <p>Network Engineer</p>
+          <div class="card-actions">
+            <a href="https://www.instagram.com/syhdanprs/" target="_blank"><i data-feather="instagram"></i></a>
+            <a href="mailto:11231042@student.itk.ac.id" target="_blank"><i data-feather="mail"></i></a>
+            <a href="https://wa.me/6285787911673" target="_blank"><i data-feather="phone"></i></a>
+          </div>
+        </div>
+      </div>
+
+    <!-- card 7-->
+      <div class="card w-96 bg-cyan-950 shadow-xl mx-auto my-10">
+        <figure class="px-10 pt-10">
+          <img src="img/member/faisal.jpg" width="150px" alt="Shoes" class="rounded-full" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Muhammad Faisal</h2>
+          <p>Fullstack Developer</p>
+          <div class="card-actions">
+            <a href="https://www.instagram.com/m_faissalll/" target="_blank"><i data-feather="instagram"></i></a>
+            <a href="mailto:m.faisal070105@gmail.com" target="_blank"><i data-feather="mail"></i></a>
+            <a href="https://wa.me/6285787420704" target="_blank"><i data-feather="phone"></i></a>
+          </div>
+        </div>
+      </div>
+
+    <!-- card 8-->
+      <div class="card w-96 bg-cyan-950 shadow-xl mx-auto my-10">
+        <figure class="px-10 pt-10">
+          <img src="img/member/fatwa.JPG" width="150px" alt="Shoes" class="rounded-full" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Muhammad Fatwa Al Choiri</h2>
+          <p>Data Analyst</p>
+          <div class="card-actions">
+            <a href="https://www.instagram.com/fatwaalc/" target="_blank"><i data-feather="instagram"></i></a>
+            <a href="mailto:muhammadfatwaalchoiri@gmail.com" target="_blank"><i data-feather="mail"></i></a>
+            <a href="https://wa.me/6285772378348" target="_blank"><i data-feather="phone"></i></a>
+          </div>
+        </div>
+      </div>
+
+    <!-- card 9-->
+      <div class="card w-96 bg-cyan-950 shadow-xl mx-auto my-10">
+        <figure class="px-10 pt-10">
+          <img src="img/member/rakha.jpg" width="150px" alt="Shoes" class="rounded-full" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Muhammad Rakha Randhika</h2>
+          <p>Network Engineer</p>
+          <div class="card-actions">
+            <a href="https://www.instagram.com/rakharandikaaa/" target="_blank"><i data-feather="instagram"></i></a>
+            <a href="mailto:11231060@student.itk.ac.id" target="_blank"><i data-feather="mail"></i></a>
+            <a href="https://wa.me/6289524000806" target="_blank"><i data-feather="phone"></i></a>
+          </div>
+        </div>
+      </div>
+  </section>
+  
+  <footer id="contact" class="footer p-10 bg-neutral text-neutral-content">
+    <aside class="ml-10">
+      <img src="img/logo.png" width="110px"  alt="logo">
+      <p>Kuliah Rahmad Cumlaude<br/>Copyright © 2023 - KRC</p>
+    </aside> 
+  </footer>
+<!-- icons -->
+<script>
+  feather.replace();
+</script>
+
+<!-- navbar -->
+<script>
+  const navLinks = document.querySelector('.nav-links')
+  function onToggleMenu(e){
+      e.name = e.name === 'menu' ? 'close' : 'menu'
+      navLinks.classList.toggle('top-[9%]')
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
+
+*, html, body {
+    scroll-behavior: smooth;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+
+
+#navbar, .nav-links {
+    background-color: #292b3b;
+}
+
+#nav-navbar {
+    color: #ecf2ff;
+}
+
+#krc{
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#krc:hover{
+    transform: rotate(360deg);
+    width: 170px;
+}
+
+#home {
+    background: url('img/home.png') center top no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
