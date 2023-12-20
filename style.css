@@ -5,8 +5,6 @@
     font-family: 'Chakra Petch', sans-serif;
 }
 
-
-
 #navbar, .nav-links {
     background-color: #292b3b;
 }
@@ -25,9 +23,11 @@
 }
 
 #home {
-    background: url('img/home.png') center top no-repeat;
-    background-size: cover;
     height: 100vh;
+}
+
+#about, #member, #activity {
+    background-color: #1d232a;
 }
 
 .icon {
