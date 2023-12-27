@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
 
 *, html, body {
-    scroll-behavior: smooth;
     font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -19,12 +18,13 @@
 
 #krc:hover{
     transform: rotate(360deg);
-    width: 170px;
+    width: 130px;
 }
 
 #home {
     height: 100vh;
 }
+
 
 #about, #member, #activity {
     background-color: #1d232a;
